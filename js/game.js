@@ -104,6 +104,7 @@ function computerTurn() {
     } while (panel[move].value != "");
     setMove(panel[move]);
 }
+
 /**
  *  Vraca 0 ako igra je jos uvijek u tijeku tj. nije zavrsena
  *  Vraca 1 ako je kraj igre i pobjednik je Igrac 1
